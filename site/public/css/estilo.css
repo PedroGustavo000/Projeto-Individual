@@ -1,0 +1,366 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: black;
+    padding: 0;
+}
+/* INICIO HOME */
+/* INICIO HEADER */
+
+.header{
+    background-color: black;
+    border-bottom: 2px solid #29466b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+}
+
+
+.header .container {
+    justify-content: space-between;
+}
+
+.tit_logo{
+    display: flex;
+    align-items: center;
+}
+
+.tit_logo .logo{
+    height: 50px;
+}
+
+.tit_logo .titulo_logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navBar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navBar{
+    width: 300px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.agora{
+    font-weight: 1000;
+}
+
+/* FIM HEADER */
+
+/* INICIO BANNER */
+
+.banner .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+}
+
+.banner .container #imagem{
+    height: 100%;
+    width: 100%;
+}
+
+.banner #frase{
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    /* border: 2px solid red; */
+}
+
+.banner #frase p{
+    font-size: 35px;
+    width: 60%;
+    float: right;
+    /* color: rgb(207, 154, 59); */
+    color: #cf9a3b;
+}
+
+/* COMEÇO CONTEUDO */
+
+.conteudo{
+    /* height: 100mm; */
+    border-top: 2px solid #29466b;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: column; */
+}
+
+.conteudo .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo .container #titulo_conteudo{
+    font-size: 20px;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.conteudo .container .boxes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.conteudo .container .boxes .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+    /* border: 2px solid red; */
+}
+
+.conteudo .container .boxes .box #tema_temp{
+    height: 200px;
+}
+
+.conteudo .container .boxes .box #temas_uni{
+    margin-top: 2%;
+    height: 200px;
+}
+
+.conteudo .container .boxes .box #tema_ro{
+    height: 200px;
+}
+
+.conteudo .container .texto{
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.conteudo .container .texto a{
+    color: #29466b;
+}
+
+/* INICIO FOOTER */
+
+
+.rodape{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25mm;
+    width: 100%;
+    background-color: #29466b;
+}
+
+/* FIM FOOTER */
+
+/* FIM HOME */
+
+/* INICIO LOGIN E CADASTRO */
+
+.mestre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mestre_cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.metade_direito{
+    width: 50%;
+    height: 100%;
+    background-color: #01203c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.metade_direito h2{
+    color: white;
+    font-size: 15mm;
+}
+
+.metade_direito h4{
+    color: white;
+    font-size: 10mm;
+}
+
+.metade_direito .icone{
+    height: 60px;
+}
+
+.mestre_cadastro .metade_direito .icone{
+    height: 40px;
+}
+
+.metade_direito input{
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    background-color: #01203c;
+}
+
+.metade_direito .ipt:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.metade_direito .botao{
+    color: white;
+    background-color: #01203c;
+    font-weight: 1000;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 10mm;
+    width: 20mm;
+}
+
+.mestre_cadastro .botao{
+    color: white;
+    background-color: #01203c;
+    font-weight: 1000;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 10mm;
+    width: 25mm;
+}
+
+.metade_direito p{
+    color: white;
+}
+
+.metade_direito p a{
+    color: rgb(0, 102, 255);
+}
+
+.metade_esquerdo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.metade_esquerdo .img_lateral{
+    height: 400px;
+}
+
+/* INICIO PAGINA DE USUARIO */
+
+.pagina {
+    width: 100%;
+    height: 100%;
+}
+
+.pagina .container{ 
+    width: 100%;
+    height: 100%;
+}
+
+.pagina .container .esquerda{
+    text-align: center;
+    float: left;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 15vw;
+    height: 100vh;
+    border-right: 2px solid #29466b;
+}
+
+.pagina .container .esquerda img{
+    height: 150px;
+}
+
+.pagina .container .esquerda a{
+    text-decoration: none;
+    color: white;
+}
+
+.pagina .container .esquerda .agora{
+    font-weight: 1000;
+}
+
+.pagina .container .direita{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 100vh;
+}
+
+.pagina .container .direita .cima{
+    float: left;
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    width: 85vw;
+    height: 10vh;
+    border-bottom: 2px solid #29466b;
+}
+
+.pagina .container .direita .cima .opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 20mm;
+    width: 63mm;
+}
+
+.pagina .container .direita .cima a{
+    text-decoration: none;
+    color: white;
+}
+
+.pagina .container .direita .cima .img_perfil{
+    cursor: pointer;
+    border-radius: 50%;
+    height: 55px;
+}
+
+.pagina .conteudo{
+    /* border: 2px solid red; */
+    height: 70vh;
+    overflow: scroll;
+}
+
