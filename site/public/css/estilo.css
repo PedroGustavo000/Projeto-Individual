@@ -238,7 +238,7 @@ body{
     outline: 0;
 }
 
-.metade_direito .botao{
+.metade_direito button{
     color: white;
     background-color: #01203c;
     font-weight: 1000;
@@ -246,9 +246,10 @@ body{
     border-radius: 10px;
     height: 10mm;
     width: 20mm;
+    cursor: pointer;
 }
 
-.mestre_cadastro .botao{
+.mestre_cadastro button{
     color: white;
     background-color: #01203c;
     font-weight: 1000;
@@ -256,6 +257,7 @@ body{
     border-radius: 10px;
     height: 10mm;
     width: 25mm;
+    cursor: pointer;
 }
 
 .metade_direito p{

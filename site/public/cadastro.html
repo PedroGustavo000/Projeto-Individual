@@ -31,7 +31,7 @@
                 <img src="assets/img/icon_senha.png" class="icone">
                 <input type="password" placeholder="Confirmar Senha" id="ipt_conf_senha" class="ipt">
 
-                <button class="botao" id="cadastrar()">Cadastrar</button>
+                <button onclick="cadastrar()">Cadastrar</button>
 
                 <p>
                     Caso não tenha uma conta faça <a href="login.html">login</a>
@@ -45,7 +45,7 @@
 
 <script>
 
-    function cadastrar() {
+function cadastrar() {
         // aguardar();
 
         //Recupere o valor da nova input pelo nome do id
@@ -63,7 +63,7 @@
             return false;
         }
         else {
-            setInterval(sumirMensagem, 5000)
+            // setInterval(sumirMensagem, 5000)
         }
 
         // Enviando o valor da nova input
@@ -104,3 +104,5 @@
 
         return false;
     }
+
+</script>
