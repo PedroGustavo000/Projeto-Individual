@@ -335,11 +335,10 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 10px;
     color: white;
     width: 100%;
     height: 10%;
-    border-bottom: 2px solid #29466b;
+    border-bottom: 1px solid #29466b;
 }
 
 .pagina .container .direita .cima .opcoes{
@@ -364,21 +363,21 @@ body{
 
 .pagina .container .conteudo{
     height: 90%;
+    overflow-y: scroll;
 }
 
 .pagina .container .conteudo .lista{
     border: 1px solid white;
-    width: 25%;
+    width: 30%;
 }
 
 .pagina .container .conteudo .lista ul{
     list-style: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.pagina .container .conteudo .lista a{
-    text-decoration: none;
-    color: white;
+.pagina .container .conteudo img{
+    width: 350px;
 }
 
