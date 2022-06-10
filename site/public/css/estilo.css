@@ -364,6 +364,9 @@ body{
 .pagina .container .conteudo{
     height: 90%;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
 }
 
 .pagina .container .conteudo .lista{
