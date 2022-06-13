@@ -362,7 +362,6 @@ body{
 }
 
 .pagina .container .conteudo{
-    color: ;
     height: 90%;
     overflow-y: scroll;
     display: flex;
@@ -409,5 +408,76 @@ body{
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+}
+
+.pagina .container .conteudo .parte_cima #metricas{
+    height: 100%;
+    width: 50%;
+}
+
+.pagina .container .conteudo .parte_cima #metricas #mt_texto{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pagina .container .conteudo .parte_cima #mt{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina .container .conteudo .parte_cima #metricas #mt #mt_um{
+    background-color: rgb(0, 185, 0);
+    height: 7mm;
+    width: 33.3%;
+}
+
+.pagina .container .conteudo .parte_cima #metricas #mt #mt_doi{
+    background-color: rgb(192, 0, 0);
+    height: 7mm;
+    width: 33.3%;
+}
+
+.pagina .container .conteudo .parte_cima #metricas #mt #mt_tres{
+    background-color: rgb(109, 1, 109);
+    height: 7mm;
+    width: 33.3%;
+}
+
+/* .pagina .container .conteudo .parte_cima #mt{
+    border: 2px solid red;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina .container .conteudo .parte_cima #metrica #mt #mt_um{
+    background-color: rgb(0, 185, 0);
+    height: 7mm;
+    width: 25%;
+}
+
+.pagina .container .conteudo .parte_cima #metrica #mt #mt_doi{
+    background-color: rgb(192, 0, 0);
+    height: 7mm;
+    width: 25%;   
+}
+
+.pagina .container .conteudo .parte_cima #metrica #mt #mt_tres{
+    background-color: rgb(109, 1, 109);
+    height: 7mm;
+    width: 25%;
+} */
+
+.pagina .container .conteudo #img_aventura{
+    width: 450px;
 }
 
